@@ -6,7 +6,7 @@
 #include <lmcons.h>
 
 
-
+//slightly modified version of https://docs.microsoft.com/en-us/windows/win32/secauthz/modifying-the-acls-of-an-object-in-c--
 DWORD AddAceToObjectsSecurityDescriptor (
     HANDLE pszObjName,          // name of object
     SE_OBJECT_TYPE ObjectType,  // type of object
